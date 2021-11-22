@@ -1,0 +1,128 @@
+body {
+
+	background-color: rgba(230, 230, 230, 0.5);
+	color: rgb(30, 30, 30);
+	font-family: 'Zilla Slab', serif;
+	font-size: 16px;
+}
+
+h1, h2 {
+	font-family: 'Antic Didone', serif;
+}
+
+h1 {
+	font-size: 43px;
+	font-weight: 850;
+	color: rgb(185, 122, 149);
+}
+
+h2{
+	color: rgb(185, 122, 149);
+	font-size: 30px;
+	font-weight: 700;
+}
+
+a { 
+	text-decoration: none; 
+	color: rgb(185, 122, 149);
+	font-weight: bolder;
+	font-size: 13px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: rgb(167, 208, 205);
+	text-decoration: none; 
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.image-circle {
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.btn-pink {
+	background-color: rgb(185, 122, 149);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover {
+	color: white;
+	background-color: rgb(167, 208, 205);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(167, 208, 205);
+}
+
+.list-inline i:hover {
+	color : rgb(185, 122, 149)
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
